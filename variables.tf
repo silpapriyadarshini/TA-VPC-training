@@ -3,30 +3,23 @@ variable "vpc_name" {
     type = string
 }
 
+variable "aws_region" {
+    description = "region for resources deplyment"
+    type = string
+}
+
 variable "vpc_cidr" {
     description = "This is a cidr name"
 }
 
 variable "cidr_public" {
-    description = "This is a cidr for public subnet in eu-west-1a"
+    description = "This is a cidr for public subnet"
 }
 
 variable "cidr_private" {
-    description = "This is a cidr for private subnet in eu-west-1a"
+    description = "This is a cidr for private subnet"
 }
 
 variable "cidr_data" {
-    description = "This is a cidr for data subnet in eu-west-1a"
-}
-
-variable "cidr_public1" {
-    description = "This is a cidr for public subnet in eu-west-1b"
-}
-
-variable "cidr_private1" {
-    description = "This is a cidr for private subnet in eu-west-1b"
-}
-
-variable "cidr_data1" {
-    description = "This is a cidr for data subnet in eu-west-1b"
+    description = "This is a cidr for data subnet"
 }
