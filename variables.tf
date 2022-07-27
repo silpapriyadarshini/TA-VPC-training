@@ -8,21 +8,25 @@ variable "vpc_cidr" {
 }
 
 variable "cidr_public" {
-    description = "This is a cidr for public subnet"
+    description = "This is a cidr for public subnet in eu-west-1a"
 }
 
 variable "cidr_private" {
-    description = "This is a cidr for private subnet"
+    description = "This is a cidr for private subnet in eu-west-1a"
 }
 
 variable "cidr_data" {
-    description = "This is a cidr for data subnet"
+    description = "This is a cidr for data subnet in eu-west-1a"
+}
+
+variable "cidr_public1" {
+    description = "This is a cidr for public subnet in eu-west-1b"
 }
 
 variable "cidr_private1" {
-    description = "This is a cidr for 1st private subnet for db instance"
+    description = "This is a cidr for private subnet in eu-west-1b"
 }
 
-variable "cidr_private2" {
-    description = "This is a cidr for 2nd private subnet for db instance"
+variable "cidr_data1" {
+    description = "This is a cidr for data subnet in eu-west-1b"
 }
